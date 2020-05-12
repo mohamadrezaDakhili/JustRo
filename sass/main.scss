@@ -14,17 +14,10 @@
 @media screen and (max-width: 1200px) {
   #bg-logo {
     margin-right: -200px;
-    // margin-top: 80px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  #header_wave {
-    display: none;
-  }
-  #box-logo {
-    justify-content: flex-end !important;
-  }
   #bg-logo {
     margin-right: 0px;
     margin-top: 80px;
@@ -32,9 +25,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  #box-logo {
-    justify-content: flex-end !important;
-  }
   #bg-logo {
     margin-right: -50px;
     margin-top: 80px;
