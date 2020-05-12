@@ -1,10 +1,49 @@
 @import "vendors/fonts";
-@import "theme/colors";
-@import "theme/fontSize";
+@import "layout/navbar";
+* {
+  box-sizing: border-box;
+}
 
-$color: black;
-body {
-  background-color: $color !important;
-  font-family: "Shabnam" !important;
-  font-size: $font-size-nav;
+#box-logo {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) {
+  #bg-logo {
+    margin-right: -200px;
+    // margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #header_wave {
+    display: none;
+  }
+  #box-logo {
+    justify-content: flex-end !important;
+  }
+  #bg-logo {
+    margin-right: 0px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #box-logo {
+    justify-content: flex-end !important;
+  }
+  #bg-logo {
+    margin-right: -50px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #bg-logo {
+    margin-right: -100px;
+    margin-top: 80px;
+  }
 }

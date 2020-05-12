@@ -7,29 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href='../public/stylesheet/main.css'>
     </link>
-    <script src="https://kit.fontawesome.com/46d1777388.js" crossorigin="anonymous"></script>
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/stylesheet/css/bootstrap.min.css">
+    <!-- added css file -->
+
+    <!-- <link rel="shortcut icon" type="image/png" href="" /> -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>JustRo</title>
+    <!-- added jquery file in project -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- fontawesome line -->
+    <script src="https://kit.fontawesome.com/46d1777388.js" crossorigin="anonymous"></script>
+    <!-- added AOS link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+    <div class="container-fluid d-flex p-0 m-0 align-items-center flex-column">
+        <div class="row justify-content-between align-items-start col-12 p-0 m-0 position-absolute">
+            <div class="col-4 row justify-content-start p-0 m-0">
+                <img id="header_wave" src="../public/images/010_header_wave.png" alt="header_wave" width="300px">
+            </div>
+            <div id="box-logo" class="col-sm-12 col-lg-4 row justify-content-center p-0 m-0">
+                <img id="bg-logo" src="../public/images/009_logo_Bg.svg" alt="logo-bg" width="400px">
+            </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        </div>
+        <!-- navbar phone -->
+        <div
+            class="navBar col-sm-12 col-md-12 d-flex d-md-flex d-lg-none p-0 m-0 justify-content-between align-items-center bg-white">
+            <div class="col-2">
+                <img id="icon-search" src="../public/images/search-icon.png" alt="search-icon" width="30px">
+            </div>
+            <div class="col-10 row justify-content-end align-items-center p-0 m-0 h-100">
+                <span class="text-brand">جاسترو</span>
+                <img id="icon-menu" src="../public/images/hamburger-menu.png" alt="hamburger-menu" width="40px">
+            </div>
+        </div>
+        <!-- navbar web -->
+        <div class="d-none d-lg-flex justify-content-end align-items-center mt-3 p-0 col-lg-10 col-xl-8">
+            <div class="col-xl-2 col-lg-2 p-0 m-0">
+                <button class="btn">دانلود</button>
+            </div>
+            <div class="col-xl-7 row m-0 p-0 justify-content-between">
+                <a class="txtNav">تماس با ما</a>
+                <a class="txtNav">همکاری با ما</a>
+                <a class="txtNav">درباره ما</a>
+                <a class="txtNav">ویژگی ها</a>
+                <a class="txtNav">ایده ها</a>
+                <a class="txtNav">صفحه اصلی</a>
+            </div>
+
+            <div class="row col-xl-3 col-lg-3 p-0 m-0 justify-content-end align-items-center ">
+                <span class="text-brand">جاسترو</span>
+                <img src="../public/images/logo.png" alt="logo" width="70px">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
     <script src="../javascript/index.js"></script>
 
 </body>
