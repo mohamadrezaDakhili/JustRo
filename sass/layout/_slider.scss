@@ -1,0 +1,67 @@
+@import "../themes/theme";
+
+.box-slide-one {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 600px;
+  .bg-slide-one {
+    position: relative;
+    width: 600px;
+    top: 130px;
+  }
+  #traveling {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 360px;
+  }
+  #brids {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 100px;
+  }
+}
+
+.box-text-slide {
+  margin-top: 100px;
+  width: 40%;
+  top: 0;
+  right: 0;
+  .txt-teravel {
+    text-align: right;
+    color: $color-primery-green;
+    font-family: "shabnam-bold";
+    font-size: $font-size-title-bold-web;
+  }
+  hr {
+    background-color: $color-primery-green;
+    width: 70px;
+    height: 3px;
+    margin: 10px 0px;
+    border-radius: 1.5px;
+  }
+  p {
+    color: black;
+    text-align: right;
+    font-family: "shabnam-light";
+    font-size: $font-size-text-web;
+  }
+}
+#box-carousel {
+  li {
+    background-color: $color-carousel-slider;
+  }
+}
+#Reservation {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 300px;
+}
+
+#test {
+  position: relative;
+  margin-top: 500px;
+}

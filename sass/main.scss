@@ -1,5 +1,7 @@
 @import "vendors/fonts";
 @import "layout/navbar";
+@import "layout/slider";
+
 * {
   box-sizing: border-box;
 }
@@ -22,6 +24,34 @@
     margin-right: 0px;
     margin-top: 80px;
   }
+  .txt-teravel {
+    font-size: $font-size-title-bold-phone !important;
+  }
+  .box-slide-one {
+    height: 670px !important;
+    .bg-slide-one {
+      margin-top: 150px !important;
+      width: 500px !important;
+    }
+    #traveling {
+      width: 300px !important;
+      top: 220px;
+    }
+    #brids {
+      top: 220px !important;
+    }
+  }
+  .box-text-slide {
+    width: 90%;
+    margin-top: 0em;
+    p {
+      font-size: $font-size-text-phone;
+    }
+  }
+  #Reservation {
+    top: 170px;
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -35,5 +65,25 @@
   #bg-logo {
     margin-right: -100px;
     margin-top: 80px;
+  }
+  .box-slide-one {
+    height: 700px !important;
+    .bg-slide-one {
+      margin-top: 200px !important;
+      width: 430px !important;
+    }
+    #traveling {
+      width: 230px !important;
+      top: 310px;
+    }
+    #brids {
+      top: 280px !important;
+      width: 70px;
+      left: 190px;
+    }
+  }
+  #Reservation {
+    top: 250px;
+    width: 230px;
   }
 }
