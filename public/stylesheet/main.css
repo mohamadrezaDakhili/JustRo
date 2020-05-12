@@ -18,6 +18,13 @@
   src: url("../fonts/Shabnam-Thin-FD.ttf");
 }
 
+.button-basic, .btn {
+  border-radius: 25px !important;
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  color: white !important;
+  font-family: "shabnam-medium";
+}
+
 .navBar {
   height: 80px;
   box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
@@ -49,11 +56,7 @@
 .btn {
   height: 40px !important;
   width: 120px !important;
-  border-radius: 20px !important;
-  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-  background-image: linear-gradient(to top, #e35325, #ff8a65);
-  color: white !important;
-  font-family: "shabnam-medium";
+  border-radius: 25px !important;
   margin-right: 4%;
 }
 
