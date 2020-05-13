@@ -232,6 +232,15 @@
   width: 270px;
 }
 
+#box-text {
+  margin-top: 61px;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 #title-search-flight {
   font-size: 30px;
   color: #007f62;
@@ -255,7 +264,7 @@
   height: 100%;
 }
 
-.icon-app {
+.icon-button {
   width: 35px;
 }
 
@@ -312,6 +321,9 @@
     top: 50%;
     left: 49.5%;
     transform: translate(-50%, -50%);
+  }
+  #txt-search-flight {
+    font-size: 16px;
   }
 }
 
