@@ -45,7 +45,7 @@
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
-.circle-button:hover .icon-app {
+.circle-button:hover .icon-button {
   transition: 0.2s;
   transform: rotate(360deg);
   filter: brightness(0) invert(1);
@@ -266,6 +266,10 @@
 
 .icon-button {
   width: 35px;
+}
+
+#test {
+  overflow-x: scroll;
 }
 
 * {
