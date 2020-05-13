@@ -1,0 +1,38 @@
+@import "../themes/theme";
+// background phone
+#bg-phone {
+  position: relative;
+  width: 353px;
+}
+#img-phone {
+  position: absolute;
+  top: 55px;
+  right: 45px;
+  width: 270px;
+}
+#title-search-flight {
+  font-size: $font-size-title-bold-phone;
+  color: $color-primery-green;
+  font-family: "shabnam-medium";
+  text-align: right;
+}
+#txt-search-flight {
+  margin-top: 41px;
+  font-size: $font-size-text-web;
+  color: black;
+  font-family: "shabnam-medium";
+  text-align: right;
+}
+// line vertical
+.vl {
+  position: absolute;
+  z-index: -1;
+  border-left: 2px solid;
+  border-image: linear-gradient(
+      rgba($color-border, 0.1),
+      $color-border,
+      rgba($color-border, 0.1)
+    )
+    1;
+  height: 100%;
+}

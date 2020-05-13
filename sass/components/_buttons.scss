@@ -4,3 +4,35 @@
   color: white !important;
   font-family: "shabnam-medium";
 }
+.circle-button {
+  margin: 25px 0;
+  width: 72px;
+  height: 72px;
+  padding: 1px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+.inside-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle-button:hover {
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+
+  .icon-app {
+    transition: 0.2s;
+    transform: rotate(360deg);
+    filter: brightness(0) invert(1);
+  }
+}
+
+.inside-circle:hover {
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+.circle-button:active,
+.circle-button:focus {
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}

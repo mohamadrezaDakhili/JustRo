@@ -2,15 +2,15 @@
 @import "layout/navbar";
 @import "layout/slider";
 @import "layout/wave";
+@import "layout/app";
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 #box-logo {
   overflow: hidden;
-}
-
-@media screen and (min-width: 1200px) {
 }
 
 @media screen and (max-width: 1200px) {
