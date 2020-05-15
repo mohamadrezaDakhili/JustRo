@@ -69,7 +69,7 @@
 
         </div>
         <!-- logo in phone -->
-        <div class="mt-5 mr-1 row col-7 d-lg-none justify-content-end align-items-center">
+        <div class="mt-5 mr-1 d-flex col-7 d-lg-none justify-content-end align-items-center">
             <span class="text-brand">جاسترو</span>
             <img src="../public/images/logo.png" alt="logo" width="69">
         </div>
@@ -251,14 +251,26 @@
             </div>
         </div>
         <!-- layout background wave and box download -->
-        <section id="layout-dl-wave" class="d-flex justify-content-center align-items-center">
+        <section id="layout-dl-wave" class="d-flex flex-column justify-content-center align-items-center">
             <div class="wave wave1"></div>
             <!-- box download application -->
-            <div id="box-download" class="col-xl-8 col-lg-10 col-11 p-0 m-0 row bg-dark">
-                <div class="col-10 d-flex flex-column justify-content-center align-items-center bg-secondary p-0 m-0">
-                    asgd</div>
-                <!-- img download -->
-                <div class="col-2 row align-items-center justify-content-center p-0 m-0 bg-primary">kjhgkjh</div>
+            <div id="box-download"
+                class="col-xl-8 col-lg-10 col-11 p-0 m-0 d-flex flex-column justify-content-center align-items-center">
+                <span id="txt-download-app">دانلود اپلیکیشن جاسترو</span>
+                <span id="txt-login-phone">شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود اپلیکیشن
+                    رو دریافت
+                    کنید</span>
+                <!-- box input and button download -->
+                <div id="box-login-phone">
+                    <input type="number" name="number" id="input-number" placeholder="09" pattern="/^-?\d+\.?\d*$/"
+                        onKeyPress="if(this.value.length==11) return false;">
+                    <button id="btn-download">دانلود</button>
+                </div>
+                <span id="txt-download-two">یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</span>
+
+                <span class="row justify-content-center bg-dark">
+                    <button class=""></button>
+                </span>
             </div>
         </section>
     </div>

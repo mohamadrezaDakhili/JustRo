@@ -1,9 +1,10 @@
 @import "../themes/theme";
 @import "./wave";
+@import "../components/buttons";
 #layout-dl-wave {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 450px;
   overflow: hidden;
   .wave {
     position: absolute;
@@ -32,4 +33,57 @@
   }
 }
 #box-download {
+  z-index: 1;
+  border-radius: 30px;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  height: 300px;
+}
+#txt-download-app {
+  font-size: $font-size-logo;
+  font-family: "shabnam-medium";
+  color: $color-primery-green;
+  letter-spacing: -1px;
+}
+#txt-login-phone {
+  color: black;
+  font-size: $font-size-text-phone;
+  font-family: "shabnam-light";
+  margin-top: 12px;
+}
+#box-login-phone {
+  position: relative;
+  margin-top: 24px;
+  width: 410px;
+  height: 50px;
+}
+#input-number {
+  padding-left: 168px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+  font-size: $font-size-text-phone;
+  color: $color-placeHolder-phone;
+  font-family: "shabnam-medium";
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+#btn-download {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  @extend .button-basic;
+  left: 0;
+}
+#txt-download-two {
+  @extend #txt-login-phone;
+  margin-top: 48px;
 }

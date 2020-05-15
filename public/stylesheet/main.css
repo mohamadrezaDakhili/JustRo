@@ -18,10 +18,11 @@
   src: url("../fonts/Shabnam-Thin-FD.ttf");
 }
 
-.button-basic, .btn {
+.button-basic, .btn, #btn-download {
   border-radius: 25px !important;
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   color: white !important;
+  border: 0;
   font-family: "shabnam-medium";
 }
 
@@ -323,10 +324,53 @@
   }
 }
 
+.button-basic, .btn, #btn-download {
+  border-radius: 25px !important;
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  color: white !important;
+  border: 0;
+  font-family: "shabnam-medium";
+}
+
+.circle-button {
+  margin: 20px 0;
+  width: 65px;
+  height: 65px;
+  padding: 1px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+
+.inside-circle {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle-button:hover {
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.circle-button:hover .icon-button {
+  transition: 0.2s;
+  transform: rotate(360deg);
+  filter: brightness(0) invert(1);
+}
+
+.inside-circle:hover {
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.circle-button:active,
+.circle-button:focus {
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+
 #layout-dl-wave {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 450px;
   overflow: hidden;
 }
 
@@ -356,6 +400,66 @@
   100% {
     background-position-x: 1500px;
   }
+}
+
+#box-download {
+  z-index: 1;
+  border-radius: 30px;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  height: 300px;
+}
+
+#txt-download-app {
+  font-size: 24px;
+  font-family: "shabnam-medium";
+  color: #007f62;
+  letter-spacing: -1px;
+}
+
+#txt-login-phone, #txt-download-two {
+  color: black;
+  font-size: 16px;
+  font-family: "shabnam-light";
+  margin-top: 12px;
+}
+
+#box-login-phone {
+  position: relative;
+  margin-top: 24px;
+  width: 410px;
+  height: 50px;
+}
+
+#input-number {
+  padding-left: 168px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+  font-size: 16px;
+  color: #616161;
+  font-family: "shabnam-medium";
+}
+
+#input-number:focus {
+  outline: none;
+}
+
+#input-number::-webkit-outer-spin-button, #input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#btn-download {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  left: 0;
+}
+
+#txt-download-two {
+  margin-top: 48px;
 }
 
 * {
