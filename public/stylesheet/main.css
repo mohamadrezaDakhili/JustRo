@@ -18,7 +18,7 @@
   src: url("../fonts/Shabnam-Thin-FD.ttf");
 }
 
-.button-basic, .btn, #btn-download, #btn-download-phone {
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
   border-radius: 25px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -384,7 +384,7 @@
   }
 }
 
-.button-basic, .btn, #btn-download, #btn-download-phone {
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
   border-radius: 25px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -610,6 +610,103 @@
 
 #layuot-btn-dl-phone {
   width: 100%;
+}
+
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
+  border-radius: 25px !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  color: white !important;
+  border: 0;
+  font-family: "shabnam-medium";
+}
+
+.circle-button {
+  margin: 20px 0;
+  width: 65px;
+  height: 65px;
+  padding: 1px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+
+.inside-circle {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle-button:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.circle-button:hover .icon-button {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.inside-circle:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.circle-button:active,
+.circle-button:focus {
+  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+
+.button-basic-download, .btn-download, .btn-download-phone {
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  color: white;
+  font-family: "shabnam-bold";
+  font-size: 14px;
+  border: 0px;
+}
+
+#box-travel {
+  background-image: url("../images/022_bg_amadegisafar.svg");
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  background-size: 100% auto;
+  background-position: center top;
+  margin-top: 50px;
+}
+
+#title-Travel-readiness {
+  color: white;
+  size: 24px;
+  font-family: "shabnam-medium";
+}
+
+#txt-Travel-readiness {
+  font-family: "shabnam-light";
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 29px;
+  margin-bottom: 50px;
+}
+
+#btn-travel {
+  width: 160px;
+  height: 50px;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
 }
 
 * {
