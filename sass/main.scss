@@ -70,6 +70,19 @@
     margin-right: -50px;
     margin-top: 80px;
   }
+    #box-travel{
+    background-image: url("../images/023_amadegisafar.jpg");
+    object-fit: contain;
+    height: 450px;
+    background-size: 100% 100%;
+    // filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
+
+  }
+  #btn-travel{
+    position: absolute;
+    transform: translateY(0);
+    bottom:30px;
+  }
 }
 
 @media screen and (max-width: 575px) {
