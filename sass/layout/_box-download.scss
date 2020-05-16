@@ -49,6 +49,7 @@
   font-size: $font-size-text-phone;
   font-family: "shabnam-light";
   margin-top: 12px;
+  text-align: center;
 }
 #box-login-phone {
   position: relative;
@@ -87,17 +88,60 @@
   @extend #txt-login-phone;
   margin-top: 48px;
 }
-.btn-download{
+.btn-download {
   @extend .button-basic-download;
+    margin-right: 30px;
+  transform: translateY(25px);
 }
-#box-icon-download{
+#box-icon-download {
   width: 128px;
   position: absolute;
   right: 60px;
 }
-#txt-dl{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#txt-dl {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: $font-size-text-web;
   color: #00a680;
   margin-top: 0px;
+}
+#box-download-phone {
+  padding: 30px 0 46px;
+  margin-top: 46px;
+  border-radius: 15px;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  background-color: #ffffff;
+}
+#input-number-phone {
+  width: 290px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+  margin-top: 33px;
+  font-size: $font-size-text-phone;
+  color: $color-placeHolder-phone;
+  font-family: "shabnam-medium";
+  padding-left: 16px;
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+#btn-download-phone {
+  width: 140px;
+  height: 50px;
+  @extend .button-basic;
+  margin-top: 20px;
+}
+
+.btn-download-phone{
+ @extend .button-basic-download;
+ margin-top: 30px;
+}
+#layuot-btn-dl-phone{
+  width: 100%;
 }
