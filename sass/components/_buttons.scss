@@ -1,3 +1,5 @@
+@import "../themes/theme";
+
 .button-basic {
   border-radius: 25px !important;
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -36,4 +38,18 @@
 .circle-button:active,
 .circle-button:focus {
   box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+
+.button-basic-download{
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  color: white;
+  font-family: "shabnam-bold";
+  font-size: $font-size-text-web;
+  border: 0px;
+  margin-right: 30px;
+  transform: translateY(25px);
 }

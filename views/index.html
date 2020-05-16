@@ -250,27 +250,55 @@
                 <img id="img-phone" src="../public/images/phone.PNG" alt="phone">
             </div>
         </div>
+
         <!-- layout background wave and box download -->
-        <section id="layout-dl-wave" class="d-flex flex-column justify-content-center align-items-center">
-            <div class="wave wave1"></div>
+        <section id="layout-dl-wave" class="d-flex justify-content-center align-items-center">
+            <div class="wave wave1 d-none d-lg-block"></div>
             <!-- box download application -->
             <div id="box-download"
                 class="col-xl-8 col-lg-10 col-11 p-0 m-0 d-flex flex-column justify-content-center align-items-center">
-                <span id="txt-download-app">دانلود اپلیکیشن جاسترو</span>
-                <span id="txt-login-phone">شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود اپلیکیشن
-                    رو دریافت
-                    کنید</span>
-                <!-- box input and button download -->
-                <div id="box-login-phone">
-                    <input type="number" name="number" id="input-number" placeholder="09" pattern="/^-?\d+\.?\d*$/"
-                        onKeyPress="if(this.value.length==11) return false;">
-                    <button id="btn-download">دانلود</button>
-                </div>
-                <span id="txt-download-two">یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</span>
 
-                <span class="row justify-content-center bg-dark">
-                    <button class=""></button>
-                </span>
+<div id="box-icon-download" class="d-flex justify-content-center align-items-center flex-column">
+                        <img src="../public/images/021_dlbox_icon_download.svg" alt="dlbox_icon_download">
+                        <span id="txt-dl">Version : 2.3.04</span>
+                    </div>
+                    <span id="txt-download-app">دانلود اپلیکیشن جاسترو</span>
+                    <span id="txt-login-phone">شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود اپلیکیشن
+                        رو دریافت
+                        کنید</span>
+                    <!-- box input and button download -->
+                    <div id="box-login-phone">
+                        <input type="number" name="number" id="input-number" placeholder="09" pattern="/^-?\d+\.?\d*$/"
+                            onKeyPress="if(this.value.length==11) return false;">
+                        <button id="btn-download">دانلود</button>
+                    </div>
+                    <span id="txt-download-two">یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</span>
+                    
+                    
+                    <!-- layout button download -->
+                    <div class="row justify-content-center">
+                        <!-- coffe bazaar -->
+                        <button class="btn-download">
+                            <div>
+                                کافه بازار
+                                <img src="../public/images/icon-bazar.png" alt="ic-bazar" width="34px">
+                            </div>
+                        </button>
+                        <!-- google play -->
+                        <button class="btn-download">
+                            <div>
+                                Google play
+                                <img src="../public/images/icon-googleplay.png" alt="icon-googleplay" width="23px">
+                            </div>
+                        </button>
+                        <!-- link download -->
+                        <button class="btn-download">
+                            <div>
+                                دانلود مستقیم
+                                <img src="../public/images/icon-download.png" alt="icon-download" width="25px">
+                            </div>
+                        </button>
+              </div>         
             </div>
         </section>
     </div>
@@ -281,3 +309,4 @@
 </body>
 
 </html>
+

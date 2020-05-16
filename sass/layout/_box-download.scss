@@ -36,13 +36,13 @@
   z-index: 1;
   border-radius: 30px;
   box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
-  height: 300px;
 }
 #txt-download-app {
   font-size: $font-size-logo;
   font-family: "shabnam-medium";
   color: $color-primery-green;
   letter-spacing: -1px;
+  margin-top: 29px;
 }
 #txt-login-phone {
   color: black;
@@ -86,4 +86,18 @@
 #txt-download-two {
   @extend #txt-login-phone;
   margin-top: 48px;
+}
+.btn-download{
+  @extend .button-basic-download;
+}
+#box-icon-download{
+  width: 128px;
+  position: absolute;
+  right: 60px;
+}
+#txt-dl{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: $font-size-text-web;
+  color: #00a680;
+  margin-top: 0px;
 }
