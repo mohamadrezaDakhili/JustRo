@@ -1,0 +1,59 @@
+@import "../components/buttons";
+@import "../themes/theme";
+
+#layout-footer {
+  position: relative;
+  width: 100%;
+  height: 278px;
+  overflow: hidden;
+
+  .wave-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 278px;
+    background: url("../images/025_footer_Bg.png");
+    background-size: 2200px 278px;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    background-position:center;
+  }
+}
+
+#box-wave-footer-right{
+width: 100%;
+position: absolute;
+bottom: 0;
+right: 0;
+background-repeat: no-repeat;
+}
+
+#txt-copy-right{
+  font-size: 11px;
+  font-family: "shabnam-medium";
+  color: white;
+  text-align: end;
+  padding: 0 0px ;
+  margin: 15px 0;
+}
+.a{
+  list-style-type: circle;
+  li{
+    font-size: 13px;
+    color: white;
+    font-family: "shabnam-medium";
+    margin-bottom: 28px;
+  }
+}
+#txt-message{
+  font-family: Calibri;
+  font-size: 15px;
+  color: white;
+}
+#txt-phone{
+  font-family: "shabnam-medium";
+  font-size: 13px;
+  color: white;
+}

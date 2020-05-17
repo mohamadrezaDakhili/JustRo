@@ -6,7 +6,7 @@
 @import "layout/box-download";
 @import "layout/travel-readiness";
 @import "layout/travel-ideas";
-
+@import "layout/footer";
 
 * {
   box-sizing: border-box;
@@ -86,6 +86,16 @@
   #layout-txt-email{
   background-color: #e1fff8;
   }
+  #layout-footer{
+  background-color: #e1fff8;
+  height: 400px;
+  .wave-footer{
+    height: 400px;
+    background-size: 2200px 400px;
+
+  }
+
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -119,7 +129,7 @@
       padding-left: 0;
       text-align: center;
     }
-    #btn-download-phone{
+    #btn-email{
       position: relative;
       margin-top: 30px;
     }

@@ -18,7 +18,7 @@
   src: url("../fonts/Shabnam-Thin-FD.ttf");
 }
 
-.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -184,11 +184,6 @@
   top: 50px;
   left: 20px;
   width: 300px;
-}
-
-#test {
-  position: relative;
-  margin-top: 500px;
 }
 
 #box-wave {
@@ -384,7 +379,7 @@
   }
 }
 
-.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -612,7 +607,7 @@
   width: 100%;
 }
 
-.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -710,7 +705,7 @@
           box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25), 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
-.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel {
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
@@ -815,7 +810,7 @@
 
 #layout-txt-email {
   margin-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 #txt-email {
@@ -872,7 +867,7 @@
   margin: 0;
 }
 
-#btn-download-phone {
+#btn-email {
   width: 140px;
   height: 50px;
   -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
@@ -882,6 +877,132 @@
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
+  border-radius: 25px !important;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  color: white !important;
+  border: 0;
+  font-family: "shabnam-medium";
+}
+
+.circle-button {
+  margin: 20px 0;
+  width: 65px;
+  height: 65px;
+  padding: 1px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+
+.inside-circle {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.circle-button:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.circle-button:hover .icon-button {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.inside-circle:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.circle-button:active,
+.circle-button:focus {
+  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+
+.button-basic-download, .btn-download, .btn-download-phone {
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  color: white;
+  font-family: "shabnam-bold";
+  font-size: 14px;
+  border: 0px;
+}
+
+#layout-footer {
+  position: relative;
+  width: 100%;
+  height: 278px;
+  overflow: hidden;
+}
+
+#layout-footer .wave-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 278px;
+  background: url("../images/025_footer_Bg.png");
+  background-size: 2200px 278px;
+  background-repeat: no-repeat;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+}
+
+#box-wave-footer-right {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+}
+
+#txt-copy-right {
+  font-size: 11px;
+  font-family: "shabnam-medium";
+  color: white;
+  text-align: end;
+  padding: 0 0px;
+  margin: 15px 0;
+}
+
+.a {
+  list-style-type: circle;
+}
+
+.a li {
+  font-size: 13px;
+  color: white;
+  font-family: "shabnam-medium";
+  margin-bottom: 28px;
+}
+
+#txt-message {
+  font-family: Calibri;
+  font-size: 15px;
+  color: white;
+}
+
+#txt-phone {
+  font-family: "shabnam-medium";
+  font-size: 13px;
+  color: white;
 }
 
 * {
@@ -966,6 +1087,14 @@
   #layout-txt-email {
     background-color: #e1fff8;
   }
+  #layout-footer {
+    background-color: #e1fff8;
+    height: 400px;
+  }
+  #layout-footer .wave-footer {
+    height: 400px;
+    background-size: 2200px 400px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1000,7 +1129,7 @@
     padding-left: 0;
     text-align: center;
   }
-  #box-email #btn-download-phone {
+  #box-email #btn-email {
     position: relative;
     margin-top: 30px;
   }
