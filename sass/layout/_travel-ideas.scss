@@ -33,14 +33,19 @@
   }
 }
 
+
+#layout-txt-email{
+  margin-top: 60px;
+  padding-bottom: 80px;
+}
+
 #txt-email{
-    margin-top: 93px;
+    margin-top: 33px;
     font-size: $font-size-text-phone;
     color: black;
     text-align: center;
     font-family: "shabnam-light";
 }
-
 
 #box-email {
   position: relative;
@@ -71,4 +76,15 @@
     -webkit-appearance: none;
     margin: 0;
   }
+}
+#btn-download-phone{
+  width: 140px;
+  height: 50px;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  font-size: 18px;
+  margin: 0;
+  @extend .button-basic;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

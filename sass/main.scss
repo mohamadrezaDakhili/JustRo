@@ -77,13 +77,14 @@
     object-fit: contain;
     height: 450px;
     background-size: 100% 100%;
-    // filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
-
   }
   #btn-travel{
     position: absolute;
     transform: translateY(0);
     bottom:30px;
+  }
+  #layout-txt-email{
+  background-color: #e1fff8;
   }
 }
 
@@ -112,4 +113,16 @@
     top: 250px;
     width: 230px;
   }
+  #box-email{
+    width: 320px;
+    #input-email{
+      padding-left: 0;
+      text-align: center;
+    }
+    #btn-download-phone{
+      position: relative;
+      margin-top: 30px;
+    }
+  }
+
 }
