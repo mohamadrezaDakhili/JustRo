@@ -57,3 +57,31 @@ background-repeat: no-repeat;
   font-size: 13px;
   color: white;
 }
+
+.bg-circle-one{
+  position: absolute;
+  left: 0;
+  bottom: 122px;
+  width: 64px;
+  height: 64px;
+ background-image:linear-gradient(to bottom, #fff, rgb(196, 196, 196));
+  border-radius: 50%;
+}
+.bg-circle-two{
+  position: absolute;
+  left: 92px;
+  bottom: 146px;
+  width: 64px;
+  height: 64px;
+ background-image:linear-gradient(to bottom, #fff, rgb(196, 196, 196));
+  border-radius: 50%;
+}
+.bg-circle-three{
+  position: absolute;
+  left: 184px;
+  bottom: 190px;
+  width: 64px;
+  height: 64px;
+ background-image:linear-gradient(to bottom, #fff, rgb(196, 196, 196));
+  border-radius: 50%;
+}

@@ -1005,6 +1005,39 @@
   color: white;
 }
 
+.bg-circle-one {
+  position: absolute;
+  left: 0;
+  bottom: 122px;
+  width: 64px;
+  height: 64px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c4c4c4));
+  background-image: linear-gradient(to bottom, #fff, #c4c4c4);
+  border-radius: 50%;
+}
+
+.bg-circle-two {
+  position: absolute;
+  left: 92px;
+  bottom: 146px;
+  width: 64px;
+  height: 64px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c4c4c4));
+  background-image: linear-gradient(to bottom, #fff, #c4c4c4);
+  border-radius: 50%;
+}
+
+.bg-circle-three {
+  position: absolute;
+  left: 184px;
+  bottom: 190px;
+  width: 64px;
+  height: 64px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c4c4c4));
+  background-image: linear-gradient(to bottom, #fff, #c4c4c4);
+  border-radius: 50%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1095,6 +1128,15 @@
     height: 400px;
     background-size: 2200px 400px;
   }
+  #layout-footer .bg-circle-one {
+    position: static;
+  }
+  #layout-footer .bg-circle-two {
+    position: static;
+  }
+  #layout-footer .bg-circle-three {
+    position: static;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1132,6 +1174,15 @@
   #box-email #btn-email {
     position: relative;
     margin-top: 30px;
+  }
+  .bg-circle-one {
+    position: relative;
+  }
+  .bg-circle-two {
+    position: relative;
+  }
+  .bg-circle-three {
+    position: relative;
   }
 }
 /*# sourceMappingURL=main.css.map */

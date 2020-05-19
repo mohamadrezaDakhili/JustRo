@@ -94,6 +94,15 @@
     background-size: 2200px 400px;
 
   }
+  .bg-circle-one{
+    position: static;
+  }
+  .bg-circle-two{
+    position: static;
+  }
+  .bg-circle-three{
+    position: static;
+  }
 
   }
 }
@@ -133,6 +142,17 @@
       position: relative;
       margin-top: 30px;
     }
+  }
+  .bg-circle-one{
+    position: relative;
+  }
+  .bg-circle-two{
+    position: relative;
+
+  }
+  .bg-circle-three{
+    position: relative;
+
   }
 
 }
