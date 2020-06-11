@@ -18,6 +18,15 @@
   overflow: hidden;
 }
 
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1001;
+  background-color: white;
+  display: flex;
+}
+
 @media screen and (max-width: 1200px) {
   #bg-logo {
     margin-right: -200px;
@@ -72,38 +81,36 @@
     margin-right: -50px;
     margin-top: 80px;
   }
-    #box-travel{
+  #box-travel {
     background-image: url("../images/023_amadegisafar.jpg");
     object-fit: contain;
     height: 450px;
     background-size: 100% 100%;
   }
-  #btn-travel{
+  #btn-travel {
     position: absolute;
     transform: translateY(0);
-    bottom:30px;
+    bottom: 30px;
   }
-  #layout-txt-email{
-  background-color: #e1fff8;
+  #layout-txt-email {
+    background-color: #e1fff8;
   }
-  #layout-footer{
-  background-color: #e1fff8;
-  height: 400px;
-  .wave-footer{
+  #layout-footer {
+    background-color: #e1fff8;
     height: 400px;
-    background-size: 2200px 400px;
-
-  }
-  .bg-circle-one{
-    position: static;
-  }
-  .bg-circle-two{
-    position: static;
-  }
-  .bg-circle-three{
-    position: static;
-  }
-
+    .wave-footer {
+      height: 400px;
+      background-size: 2200px 400px;
+    }
+    .bg-circle-one {
+      position: static;
+    }
+    .bg-circle-two {
+      position: static;
+    }
+    .bg-circle-three {
+      position: static;
+    }
   }
 }
 
@@ -132,27 +139,24 @@
     top: 250px;
     width: 230px;
   }
-  #box-email{
+  #box-email {
     width: 320px;
-    #input-email{
+    #input-email {
       padding-left: 0;
       text-align: center;
     }
-    #btn-email{
+    #btn-email {
       position: relative;
       margin-top: 30px;
     }
   }
-  .bg-circle-one{
+  .bg-circle-one {
     position: relative;
   }
-  .bg-circle-two{
+  .bg-circle-two {
     position: relative;
-
   }
-  .bg-circle-three{
+  .bg-circle-three {
     position: relative;
-
   }
-
 }

@@ -20,7 +20,6 @@
 
 .button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   color: white !important;
   border: 0;
@@ -33,7 +32,6 @@
   height: 65px;
   padding: 1px;
   border-radius: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
   background-image: linear-gradient(to top, #00a680, #00f4bd);
 }
 
@@ -45,37 +43,29 @@
 }
 
 .circle-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:hover .icon-button {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  transform: rotate(360deg);
+  filter: brightness(0) invert(1);
 }
 
 .inside-circle:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:active,
 .circle-button:focus {
-  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
 .button-basic-download, .btn-download, .btn-download-phone {
   width: 160px;
   height: 50px;
   border-radius: 25px;
-  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
   background-image: linear-gradient(to top, #00a680, #00f4bd);
   color: white;
   font-family: "shabnam-bold";
@@ -85,8 +75,7 @@
 
 .navBar {
   height: 80px;
-  -webkit-box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
-          box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
+  box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
 }
 
 #icon-menu {
@@ -204,32 +193,19 @@
 }
 
 #box-wave .wave.wave1 {
-  -webkit-animation: animate 30s linear infinite;
-          animation: animate 30s linear infinite;
+  animation: animate 30s linear infinite;
   z-index: 1000;
   opacity: 1;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
   bottom: 0;
 }
 
 #box-wave .wave.wave2 {
-  -webkit-animation: animate2 15s linear infinite;
-          animation: animate2 15s linear infinite;
+  animation: animate2 15s linear infinite;
   z-index: 999;
   opacity: 0.5;
-  -webkit-animation-delay: -5s;
-          animation-delay: -5s;
+  animation-delay: -5s;
   bottom: 10px;
-}
-
-@-webkit-keyframes animate {
-  0% {
-    background-position-x: 0px;
-  }
-  100% {
-    background-position-x: 1500px;
-  }
 }
 
 @keyframes animate {
@@ -238,15 +214,6 @@
   }
   100% {
     background-position-x: 1500px;
-  }
-}
-
-@-webkit-keyframes animate2 {
-  0% {
-    background-position-x: 0px;
-  }
-  100% {
-    background-position-x: -1000px;
   }
 }
 
@@ -275,20 +242,11 @@
 
 #box-text {
   margin-top: 61px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #title-search-flight {
@@ -310,9 +268,7 @@
   position: absolute;
   z-index: -1;
   border-left: 2px solid;
-  -o-border-image: linear-gradient(rgba(57, 235, 196, 0.1), #39ebc4, rgba(57, 235, 196, 0.1)) 1;
-     border-image: -webkit-gradient(linear, left top, left bottom, from(rgba(57, 235, 196, 0.1)), color-stop(#39ebc4), to(rgba(57, 235, 196, 0.1))) 1;
-     border-image: linear-gradient(rgba(57, 235, 196, 0.1), #39ebc4, rgba(57, 235, 196, 0.1)) 1;
+  border-image: linear-gradient(rgba(57, 235, 196, 0.1), #39ebc4, rgba(57, 235, 196, 0.1)) 1;
   height: 100%;
 }
 
@@ -342,22 +298,18 @@
 }
 
 #box-wave .wave.wave1 {
-  -webkit-animation: animate 30s linear infinite;
-          animation: animate 30s linear infinite;
+  animation: animate 30s linear infinite;
   z-index: 1000;
   opacity: 1;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
   bottom: 0;
 }
 
 #box-wave .wave.wave2 {
-  -webkit-animation: animate2 15s linear infinite;
-          animation: animate2 15s linear infinite;
+  animation: animate2 15s linear infinite;
   z-index: 999;
   opacity: 0.5;
-  -webkit-animation-delay: -5s;
-          animation-delay: -5s;
+  animation-delay: -5s;
   bottom: 10px;
 }
 
@@ -381,7 +333,6 @@
 
 .button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   color: white !important;
   border: 0;
@@ -394,7 +345,6 @@
   height: 65px;
   padding: 1px;
   border-radius: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
   background-image: linear-gradient(to top, #00a680, #00f4bd);
 }
 
@@ -406,37 +356,29 @@
 }
 
 .circle-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:hover .icon-button {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  transform: rotate(360deg);
+  filter: brightness(0) invert(1);
 }
 
 .inside-circle:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:active,
 .circle-button:focus {
-  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
 .button-basic-download, .btn-download, .btn-download-phone {
   width: 160px;
   height: 50px;
   border-radius: 25px;
-  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
   background-image: linear-gradient(to top, #00a680, #00f4bd);
   color: white;
   font-family: "shabnam-bold";
@@ -462,12 +404,10 @@
 }
 
 #layout-dl-wave .wave.wave1 {
-  -webkit-animation: animate 30s linear infinite;
-          animation: animate 30s linear infinite;
+  animation: animate 30s linear infinite;
   z-index: 1000;
   opacity: 1;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
   bottom: 0;
   z-index: 1;
 }
@@ -484,8 +424,7 @@
 #box-download {
   z-index: 1;
   border-radius: 30px;
-  -webkit-box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
-          box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
 }
 
 #txt-download-app {
@@ -545,8 +484,7 @@
 
 .btn-download {
   margin-right: 30px;
-  -webkit-transform: translateY(25px);
-          transform: translateY(25px);
+  transform: translateY(25px);
 }
 
 #box-icon-download {
@@ -566,8 +504,7 @@
   padding: 30px 0 46px;
   margin-top: 46px;
   border-radius: 15px;
-  -webkit-box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
-          box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
   background-color: #ffffff;
 }
 
@@ -609,7 +546,6 @@
 
 .button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   color: white !important;
   border: 0;
@@ -622,7 +558,6 @@
   height: 65px;
   padding: 1px;
   border-radius: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
   background-image: linear-gradient(to top, #00a680, #00f4bd);
 }
 
@@ -634,37 +569,29 @@
 }
 
 .circle-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:hover .icon-button {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  transform: rotate(360deg);
+  filter: brightness(0) invert(1);
 }
 
 .inside-circle:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:active,
 .circle-button:focus {
-  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
 .button-basic-download, .btn-download, .btn-download-phone {
   width: 160px;
   height: 50px;
   border-radius: 25px;
-  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
   background-image: linear-gradient(to top, #00a680, #00f4bd);
   color: white;
   font-family: "shabnam-bold";
@@ -699,15 +626,12 @@
 #btn-travel {
   width: 160px;
   height: 50px;
-  -webkit-transform: translateY(20px);
-          transform: translateY(20px);
-  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25), 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25), 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  transform: translateY(20px);
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25), 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
 .button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   color: white !important;
   border: 0;
@@ -720,7 +644,6 @@
   height: 65px;
   padding: 1px;
   border-radius: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
   background-image: linear-gradient(to top, #00a680, #00f4bd);
 }
 
@@ -732,37 +655,29 @@
 }
 
 .circle-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:hover .icon-button {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  transform: rotate(360deg);
+  filter: brightness(0) invert(1);
 }
 
 .inside-circle:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:active,
 .circle-button:focus {
-  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
 .button-basic-download, .btn-download, .btn-download-phone {
   width: 160px;
   height: 50px;
   border-radius: 25px;
-  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
   background-image: linear-gradient(to top, #00a680, #00f4bd);
   color: white;
   font-family: "shabnam-bold";
@@ -798,13 +713,11 @@
   border-radius: 10px;
   margin-right: 15px;
   margin-top: 15px;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .box-image:hover {
-  -webkit-box-shadow: 0px 10px 20px 0 #73a99d;
-          box-shadow: 0px 10px 20px 0 #73a99d;
+  box-shadow: 0px 10px 20px 0 #73a99d;
   opacity: 0.5;
 }
 
@@ -835,23 +748,10 @@
   border-radius: 25px;
   border: solid 1px #eeeeee;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);
-          box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);
+  box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);
   font-size: 16px;
   color: #9e9e9e;
   font-family: "shabnam-medium";
-}
-
-#input-email::-webkit-input-placeholder {
-  color: #9e9e9e;
-}
-
-#input-email:-ms-input-placeholder {
-  color: #9e9e9e;
-}
-
-#input-email::-ms-input-placeholder {
-  color: #9e9e9e;
 }
 
 #input-email::placeholder {
@@ -870,8 +770,7 @@
 #btn-email {
   width: 140px;
   height: 50px;
-  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
   font-size: 18px;
   margin: 0;
   position: absolute;
@@ -881,7 +780,6 @@
 
 .button-basic, .btn, #btn-download, #btn-download-phone, #btn-travel, #btn-email {
   border-radius: 25px !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
   color: white !important;
   border: 0;
@@ -894,7 +792,6 @@
   height: 65px;
   padding: 1px;
   border-radius: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
   background-image: linear-gradient(to top, #00a680, #00f4bd);
 }
 
@@ -906,37 +803,29 @@
 }
 
 .circle-button:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:hover .icon-button {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  transform: rotate(360deg);
+  filter: brightness(0) invert(1);
 }
 
 .inside-circle:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#e35325), to(#ff8a65));
   background-image: linear-gradient(to top, #e35325, #ff8a65);
 }
 
 .circle-button:active,
 .circle-button:focus {
-  -webkit-box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-          box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
 }
 
 .button-basic-download, .btn-download, .btn-download-phone {
   width: 160px;
   height: 50px;
   border-radius: 25px;
-  -webkit-box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-          box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a680), to(#00f4bd));
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
   background-image: linear-gradient(to top, #00a680, #00f4bd);
   color: white;
   font-family: "shabnam-bold";
@@ -1011,7 +900,6 @@
   bottom: 122px;
   width: 64px;
   height: 64px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c4c4c4));
   background-image: linear-gradient(to bottom, #fff, #c4c4c4);
   border-radius: 50%;
 }
@@ -1022,7 +910,6 @@
   bottom: 146px;
   width: 64px;
   height: 64px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c4c4c4));
   background-image: linear-gradient(to bottom, #fff, #c4c4c4);
   border-radius: 50%;
 }
@@ -1033,20 +920,27 @@
   bottom: 190px;
   width: 64px;
   height: 64px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#c4c4c4));
   background-image: linear-gradient(to bottom, #fff, #c4c4c4);
   border-radius: 50%;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 #box-logo {
   overflow: hidden;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1001;
+  background-color: white;
+  display: flex;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1091,8 +985,7 @@
   #img-phone {
     top: 50%;
     left: 49.5%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   #txt-search-flight {
     font-size: 16px;
@@ -1106,15 +999,13 @@
   }
   #box-travel {
     background-image: url("../images/023_amadegisafar.jpg");
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     height: 450px;
     background-size: 100% 100%;
   }
   #btn-travel {
     position: absolute;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     bottom: 30px;
   }
   #layout-txt-email {
